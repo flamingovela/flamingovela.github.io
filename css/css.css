@@ -146,6 +146,16 @@ button:active {
   margin: 16px 0;
 }
 
+/* LOGO */
+.logo {
+  width: 66px;
+  height: 82px;
+  background-size: 128px;
+  background-position: center center;
+  background-image: url(../lib/icons/logo.svg);
+  margin: 16px;
+}
+
 /* SECTIONS */
 .capsule-container {
   min-height: 100vh;
