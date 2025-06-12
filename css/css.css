@@ -102,19 +102,19 @@ h3 {
 /* HYPERLINKS */
 a {
   color: #9999FF;
-  text-decoration: none;
 }
 
-a:hover, a button:hover {
-  color: #99FF99;
-}
-
-a:active, a button:active {
+a:hover, a button:active {
   color: #FF9999;
+}
+
+a:active, a button:hover {
+  color: #99FF99;
 }
 
 a button {
   color: #E6E6EE;
+  text-decoration: none;
 }
 
 /* BUTTONS */
@@ -142,8 +142,20 @@ button:active {
 
 /* SEPARATOR */
 .separator {
-  border-bottom: 0.5px solid #99FF99;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
   margin: 16px 0;
+}
+
+.s-green {
+  border-color: #99FF99;
+}
+
+.s-pink {
+  border-color: #FF9999;
+}
+
+.s-purple {
+  border-color: #9999FF;
 }
 
 /* LOGO */
