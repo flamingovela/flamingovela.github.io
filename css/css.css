@@ -183,8 +183,6 @@ button:active {
 }
 
 .email {
-  background-image: url(../lib/icons/email-green.svg);
-  background-image: url(../lib/icons/email-pink.svg);
   background-image: url(../lib/icons/email-purple.svg);
 }
 
