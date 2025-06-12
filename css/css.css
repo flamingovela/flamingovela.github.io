@@ -1,4 +1,43 @@
 /* FONTS */
+/* DM SERIF FONT */
+@font-face {
+  font-family: "DM Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../lib/fonts/DMSerifText-Regular.ttf);
+}
+
+@font-face {
+  font-family: "DM Serif";
+  font-style: italic;
+  font-weight: 400;
+  src: url(../lib/fonts/DMSerifText-Italic.ttf);
+}
+
+/* OUTFIT FONT */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../lib/fonts/Outfit-Regular.ttf);
+}
+
+/* OUTFIT FONT */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 200;
+  src: url(../lib/fonts/Outfit-ExtraLight.ttf);
+}
+
+/* OUTFIT FONT */
+@font-face {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../lib/fonts/Outfit-Bold.ttf);
+}
+
 
 /* BOT TRAP */
 .trap {
@@ -22,7 +61,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Outfit", sans-serif;
   color: #333333;
   letter-spacing: 16%;
   margin: 0;
@@ -40,7 +79,7 @@ h1,
 h2, 
 h3, 
 h4 {
-  font-family: serif;
+  font-family: "DM Serif", serif;
   text-transform: uppercase;
   font-weight: normal;
   padding: 0;
@@ -49,7 +88,7 @@ h4 {
 
 h1 {
   font-size: 64px;
-  color: #9999FF;
+  color: #FF9999;
 }
 
 h2 {
@@ -71,7 +110,7 @@ a:hover, a button:hover {
 }
 
 a:active, a button:active {
-  color: #333333;
+  color: #FF9999;
 }
 
 a button {
@@ -92,11 +131,13 @@ button {
 }
 
 button:hover {
-  border: 0.5px solid #99FF99;
+  border: 0.5px solid #9999FF;
+  background: #FF9999;
 }
 
 button:active {
-  border: 0.5px solid #333333;
+  border: 0.5px solid #FF9999;
+  background: #9999FF;
 }
 
 /* SEPARATOR */
@@ -146,11 +187,11 @@ button:active {
 }
 
 .email:hover {
-  background-image: url(../lib/icons/email-green.svg);
+  background-image: url(../lib/icons/email-pink.svg);
 }
 
 .email:active {
-  background-image: url(../lib/icons/email-black.svg);
+  background-image: url(../lib/icons/email-green.svg);
 }
 
 /* FREE FORMATTING */
